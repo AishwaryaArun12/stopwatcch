@@ -10,7 +10,6 @@ var reset=document.getElementById('reset');
 var intervel;
 
 start.addEventListener('click',()=>{
-    clearInterval(intervel);
     intervel= setInterval(startTime, 1000);
 });
 stop.addEventListener('click',()=>{
